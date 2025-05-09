@@ -6,10 +6,12 @@ export const WelcomeSection: React.FC = () => {
   return (
     <section className="bg-[rgba(242,238,235,1)] flex w-full flex-col overflow-hidden items-stretch justify-center px-4 md:px-[158px] py-10 md:py-[81px] max-md:max-w-full">
       <div className="bg-[rgba(230,225,215,1)] relative flex w-full flex-col md:flex-row gap-8 md:gap-[40px_161px] px-5 md:px-[50px] py-8 md:py-[78px] rounded-[18px] max-md:max-w-full">
-        <h2 className="self-stretch md:w-[389px] z-0 text-4xl md:text-[100px] text-[rgba(36,40,15,1)] md:whitespace-nowrap uppercase tracking-[-0.2px] leading-tight md:leading-none max-md:text-center" style={{ fontFamily: fonts.sigmar }}>
-          BEM-VINDO
-        </h2>
-        <p className="text-[rgba(36,40,15,1)] text-xl md:text-3xl font-extralight leading-8 md:leading-[50px] tracking-[1px] z-0 md:w-[705px] max-md:max-w-full">
+        <div className="md:w-[389px]">
+          <h2 className="text-4xl md:text-[100px] text-[rgba(36,40,15,1)] uppercase tracking-[-0.2px] leading-tight md:leading-none max-md:text-center" style={{ fontFamily: fonts.sigmar }}>
+            BEM-VINDO
+          </h2>
+        </div>
+        <p className="text-[rgba(36,40,15,1)] text-xl md:text-3xl font-extralight leading-8 md:leading-[50px] tracking-[1px] md:w-[705px] max-md:max-w-full">
           Esse é um movimento dedicado a catalisar o potencial ilimitado dos
           empreendedores em todo o Brasil. Acreditamos na força da iniciativa
           privada como agente de mudança social e econômica, e nosso propósito
