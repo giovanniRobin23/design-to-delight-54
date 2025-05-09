@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
     <header className="bg-[rgba(242,238,235,1)] sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-[rgba(36,40,15,1)] text-xl md:text-2xl" style={{ fontFamily: fonts.sigmar }}>
-          GreenFunding
+          Acelera Negócio
         </div>
         <Button 
           variant="ghost" 

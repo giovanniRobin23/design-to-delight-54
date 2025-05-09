@@ -8,15 +8,10 @@ export const HeroSection: React.FC = () => {
       <div className="bg-[rgba(36,40,15,1)] flex flex-col md:flex-row min-h-[600px] md:min-h-[816px] w-full items-center gap-8 md:gap-[40px_107px] justify-center py-12 md:py-[49px] md:pb-[99px] px-4 md:px-8 max-md:max-w-full">
         <div className="self-stretch min-w-[280px] md:min-w-60 w-full md:w-[671px] md:my-auto max-md:max-w-full">
           <div className="flex min-h-[180px] md:min-h-[254px] w-full flex-col text-[60px] md:text-[120px] text-[rgba(229,225,214,1)] tracking-[-3px] md:tracking-[-6px] leading-[60px] md:leading-[120px] justify-center py-4 md:py-[21px] max-md:max-w-full">
-            <div className="border min-h-[180px] md:min-h-[214px] w-full md:w-[645px] max-w-full overflow-hidden rounded-[5px] border-[rgba(151,71,255,0)] border-dashed">
-              <div className="self-stretch w-full gap-2.5 max-md:max-w-full">
-                <span style={{ fontFamily: fonts.sigmar, color: "rgba(229,225,214,1)" }}>
-                  ACELERA 
-                  NEGÓGIO
-                </span>
-              </div>
-              <div className="flex min-h-[100px] md:min-h-[213px] gap-2.5 py-2.5 max-md:max-w-full" />
-            </div>
+            <span style={{ fontFamily: fonts.sigmar, color: "rgba(229,225,214,1)" }}>
+              ACELERA
+              NEGÓGIO
+            </span>
           </div>
           <div className="self-stretch flex-1 shrink basis-[0%] min-h-[60px] md:min-h-[89px] w-full gap-2.5 text-xl md:text-3xl text-[rgba(250,245,241,1)] font-light leading-8 md:leading-10 mt-4 max-md:max-w-full">
             <span style={{ fontWeight: 800, color: "rgba(225,240,121,1)" }}>

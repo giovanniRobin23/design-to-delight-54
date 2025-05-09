@@ -7,13 +7,8 @@ export const Footer: React.FC = () => {
     <footer className="bg-[rgba(36,38,15,1)] min-h-[300px] md:min-h-[452px] w-full mt-10 md:mt-[85px] px-4 md:px-[137px] py-10 md:py-[65px] max-md:max-w-full">
       <div className="w-full md:w-[493px] max-w-full text-5xl md:text-[100px] text-[rgba(238,242,126,1)] tracking-[-3px] md:tracking-[-6px] leading-none max-md:max-w-full max-md:text-center">
         <span style={{ fontFamily: fonts.sigmar, color: "rgba(238,242,126,1)" }}>
-          AC
-        </span>
-        <span style={{ fontFamily: fonts.sigmar, letterSpacing: "5px", color: "rgba(238,242,126,1)" }}>
-          E
-        </span>
-        <span style={{ fontFamily: fonts.sigmar, color: "rgba(238,242,126,1)" }}>
-          LERA NEGÓGIO
+          ACELERA
+          NEGÓGIO
         </span>
       </div>
       <div className="flex w-full flex-col md:flex-row items-center md:items-stretch justify-center gap-6 md:gap-0 mt-8 md:mt-[33px] py-5 max-md:max-w-full">
