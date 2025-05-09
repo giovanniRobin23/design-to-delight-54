@@ -7,7 +7,7 @@ export const PurposeSection: React.FC = () => {
   return (
     <section className="bg-[rgba(242,238,235,1)] flex w-full flex-col overflow-hidden items-stretch justify-center px-4 md:px-[158px] py-10 md:py-[81px] max-md:max-w-full">
       <div className="relative flex w-full flex-col items-center justify-center flex-1 max-md:max-w-full">
-        <h2 className="text-[rgba(36,40,15,1)] text-3xl md:text-[69px] leading-tight md:leading-none tracking-[-2px] md:tracking-[-4px] text-center z-0 max-md:max-w-full px-4" style={{ fontFamily: fonts.sigmar }}>
+        <h2 className="text-[rgba(36,40,15,1)] text-3xl md:text-[69px] leading-tight md:leading-none tracking-[-2px] md:tracking-[-4px] text-center z-0 max-md:max-w-full px-4 animate-soft-scale" style={{ fontFamily: fonts.sigmar }}>
           UM PROPÓSITO PARA SUA EMPRESA
         </h2>
         <div className="z-0 flex w-full md:w-[1286px] max-w-full items-center justify-center flex-wrap mt-10 md:mt-[93px] gap-6">

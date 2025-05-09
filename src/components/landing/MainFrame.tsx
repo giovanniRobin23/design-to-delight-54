@@ -8,6 +8,7 @@ import { BenefitsSection } from "./BenefitsSection";
 import { CallToAction } from "./CallToAction";
 import { ContactFormSection } from "./ContactFormSection";
 import { Footer } from "./Footer";
+import { AnimatedSection } from "../ui/AnimatedSection";
 
 export const MainFrame: React.FC = () => {
   return (
@@ -15,13 +16,26 @@ export const MainFrame: React.FC = () => {
       <Header />
       <main className="flex flex-col">
         <HeroSection />
-        <WelcomeSection />
-        <PurposeSection />
-        <BenefitsSection />
-        <CallToAction />
-        <div id="contact-section">
+        
+        <AnimatedSection>
+          <WelcomeSection />
+        </AnimatedSection>
+        
+        <AnimatedSection delay={200}>
+          <PurposeSection />
+        </AnimatedSection>
+        
+        <AnimatedSection delay={300}>
+          <BenefitsSection />
+        </AnimatedSection>
+        
+        <AnimatedSection delay={400}>
+          <CallToAction />
+        </AnimatedSection>
+        
+        <AnimatedSection delay={500} id="contact-section">
           <ContactFormSection />
-        </div>
+        </AnimatedSection>
       </main>
       <Footer />
     </div>

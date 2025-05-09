@@ -54,6 +54,16 @@ export default {
 				"subtle-pulse": {
 					"0%, 100%": { transform: "scale(1)" },
 					"50%": { transform: "scale(1.02)" }
+				},
+				"scroll-in": {
+					"0%": { 
+						opacity: "0",
+						transform: "translateY(30px)"
+					},
+					"100%": { 
+						opacity: "1",
+						transform: "translateY(0)"
+					}
 				}
 			},
 			animation: {
@@ -62,7 +72,8 @@ export default {
 				"gentle-float": "gentle-float 5s ease-in-out infinite",
 				"fade-in-up": "fade-in-up 0.8s ease-out",
 				"soft-scale": "soft-scale 0.5s ease-out",
-				"subtle-pulse": "subtle-pulse 4s ease-in-out infinite"
+				"subtle-pulse": "subtle-pulse 4s ease-in-out infinite",
+				"scroll-in": "scroll-in 1.2s ease-out forwards"
 			},
 			colors: {
 				border: 'hsl(var(--border))',
