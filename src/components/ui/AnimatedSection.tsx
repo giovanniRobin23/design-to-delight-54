@@ -8,13 +8,15 @@ interface AnimatedSectionProps {
   className?: string;
   animation?: 'fade-in-up' | 'fade-in' | 'soft-scale';
   delay?: number;
+  id?: string; // Added id prop
 }
 
 export const AnimatedSection: React.FC<AnimatedSectionProps> = ({ 
   children, 
   className,
   animation = 'fade-in-up',
-  delay = 0
+  delay = 0,
+  id // Add the id prop here
 }) => {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useIntersectionObserver(ref, { 
@@ -25,6 +27,7 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
   return (
     <div 
       ref={ref}
+      id={id} // Apply id to the div
       className={cn(
         'transition-all duration-1000 opacity-0 translate-y-10',
         isInView && 'opacity-100 translate-y-0',
