@@ -1,11 +1,13 @@
+
 import React from "react";
 import { PurposeCard } from "../ui/PurposeCard";
+import { fonts } from "../../lib/fonts";
 
 export const PurposeSection: React.FC = () => {
   return (
     <section className="bg-[rgba(242,238,235,1)] flex w-full flex-col overflow-hidden items-stretch justify-center px-[158px] py-[81px] max-md:max-w-full max-md:mt-10 max-md:px-5">
       <div className="relative flex w-full flex-col items-center justify-center flex-1 max-md:max-w-full">
-        <h2 className="text-[rgba(36,40,15,1)] text-[69px] font-normal leading-none tracking-[-4px] text-center z-0 max-md:max-w-full max-md:text-[40px]">
+        <h2 className="text-[rgba(36,40,15,1)] text-[69px] leading-none tracking-[-4px] text-center z-0 max-md:max-w-full max-md:text-[40px]" style={{ fontFamily: fonts.sigmar }}>
           UM PROPÓSITO PARA SUA EMPRESA
         </h2>
         <div className="z-0 flex w-[1286px] max-w-full items-center justify-between mt-[93px] max-md:mt-10">

@@ -1,3 +1,4 @@
+
 import React, { ReactNode } from "react";
 
 interface BenefitCardProps {
@@ -12,7 +13,7 @@ export const BenefitCard: React.FC<BenefitCardProps> = ({
   description,
 }) => {
   return (
-    <div className="bg-white flex grow flex-col items-center text-[rgba(14,15,10,1)] font-light text-center w-full pt-[60px] pb-[95px] px-[43px] rounded-3xl max-md:mt-10 max-md:px-5">
+    <div className="bg-white flex flex-col items-center text-[rgba(14,15,10,1)] font-light text-center w-full h-full min-h-[450px] pt-[60px] pb-[95px] px-[43px] rounded-3xl max-md:mt-10 max-md:px-5">
       <img
         src={iconSrc}
         alt={`${title} icon`}
@@ -21,7 +22,7 @@ export const BenefitCard: React.FC<BenefitCardProps> = ({
       <h3 className="text-[34px] leading-9 tracking-[-0.7px] self-stretch mt-[30px]">
         {title}
       </h3>
-      <div className="text-xl leading-[25px] tracking-[-0.3px] self-stretch mt-[49px] max-md:mt-10">
+      <div className="text-xl leading-[25px] tracking-[-0.3px] self-stretch mt-[49px] max-md:mt-10 flex-grow">
         {description}
       </div>
     </div>

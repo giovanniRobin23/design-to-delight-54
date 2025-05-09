@@ -1,16 +1,18 @@
+
 import React from "react";
+import { fonts } from "../../lib/fonts";
 
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-[rgba(36,38,15,1)] min-h-[452px] w-full mt-[85px] px-[137px] py-[65px] max-md:max-w-full max-md:mt-10 max-md:px-5">
-      <div className="w-[493px] max-w-full text-[100px] text-[rgba(238,242,126,1)] font-normal tracking-[-6px] leading-none max-md:max-w-full max-md:text-[40px]">
-        <span style={{ fontFamily: "Sigmar, -apple-system, Roboto, Helvetica, sans-serif", color: "rgba(238,242,126,1)" }}>
+      <div className="w-[493px] max-w-full text-[100px] text-[rgba(238,242,126,1)] tracking-[-6px] leading-none max-md:max-w-full max-md:text-[40px]">
+        <span style={{ fontFamily: fonts.sigmar, color: "rgba(238,242,126,1)" }}>
           AC
         </span>
-        <span style={{ fontFamily: "Sigmar, -apple-system, Roboto, Helvetica, sans-serif", letterSpacing: "5px", color: "rgba(238,242,126,1)" }}>
+        <span style={{ fontFamily: fonts.sigmar, letterSpacing: "5px", color: "rgba(238,242,126,1)" }}>
           E
         </span>
-        <span style={{ fontFamily: "Sigmar, -apple-system, Roboto, Helvetica, sans-serif", color: "rgba(238,242,126,1)" }}>
+        <span style={{ fontFamily: fonts.sigmar, color: "rgba(238,242,126,1)" }}>
           LERA NEGÓGIO
         </span>
       </div>

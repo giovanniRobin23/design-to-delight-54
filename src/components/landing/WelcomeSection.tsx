@@ -1,10 +1,12 @@
+
 import React from "react";
+import { fonts } from "../../lib/fonts";
 
 export const WelcomeSection: React.FC = () => {
   return (
     <section className="bg-[rgba(242,238,235,1)] flex w-full flex-col overflow-hidden items-stretch justify-center px-[158px] py-[81px] max-md:max-w-full max-md:px-5">
       <div className="bg-[rgba(230,225,215,1)] relative flex w-full gap-[40px_161px] px-[50px] py-[78px] rounded-[18px] max-md:max-w-full max-md:px-5">
-        <h2 className="self-stretch w-[389px] z-0 min-w-60 gap-2.5 text-[100px] text-[rgba(36,40,15,1)] font-normal whitespace-nowrap uppercase tracking-[-0.2px] leading-none max-md:text-[40px]">
+        <h2 className="self-stretch w-[389px] z-0 min-w-60 gap-2.5 text-[100px] text-[rgba(36,40,15,1)] whitespace-nowrap uppercase tracking-[-0.2px] leading-none max-md:text-[40px]" style={{ fontFamily: fonts.sigmar }}>
           BEM-VINDO
         </h2>
         <p className="text-[rgba(36,40,15,1)] text-3xl font-extralight leading-[50px] tracking-[1px] z-0 w-[705px] max-md:max-w-full">

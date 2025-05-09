@@ -1,4 +1,6 @@
+
 import React from "react";
+import { fonts } from "../../lib/fonts";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -8,13 +10,13 @@ export const HeroSection: React.FC = () => {
           <div className="flex min-h-[254px] w-full flex-col text-[120px] text-[rgba(229,225,214,1)] tracking-[-6px] leading-[120px] justify-center py-[21px] max-md:max-w-full max-md:text-[40px] max-md:leading-[44px]">
             <div className="border min-h-[214px] w-[645px] max-w-full overflow-hidden rounded-[5px] border-[rgba(151,71,255,0)] border-dashed max-md:text-[40px] max-md:leading-[44px]">
               <div className="self-stretch w-full gap-2.5 max-md:max-w-full max-md:text-[40px] max-md:leading-[44px]">
-                <span style={{ fontFamily: "Sigmar, -apple-system, Roboto, Helvetica, sans-serif", color: "rgba(229,225,214,1)" }}>
+                <span style={{ fontFamily: fonts.sigmar, color: "rgba(229,225,214,1)" }}>
                   AC
                 </span>
-                <span style={{ fontFamily: "Sigmar, -apple-system, Roboto, Helvetica, sans-serif", letterSpacing: "5px", color: "rgba(229,225,214,1)" }}>
+                <span style={{ fontFamily: fonts.sigmar, letterSpacing: "5px", color: "rgba(229,225,214,1)" }}>
                   E
                 </span>
-                <span style={{ fontFamily: "Sigmar, -apple-system, Roboto, Helvetica, sans-serif", color: "rgba(229,225,214,1)" }}>
+                <span style={{ fontFamily: fonts.sigmar, color: "rgba(229,225,214,1)" }}>
                   LERA NEGÓGIO
                 </span>
               </div>
