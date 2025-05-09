@@ -16,12 +16,14 @@ export const CallToAction: React.FC = () => {
             Alcance suas metas com leads direcionados e agregue valor ao seu
             negócio.
           </p>
-          <button
-            className="self-stretch w-full max-w-[166px] bg-[rgba(225,240,121,1)] gap-2.5 text-[15px] text-[rgba(36,40,15,1)] leading-loose mt-8 md:mt-[17px] py-3 rounded-[10px] border-[rgba(225,240,121,1)] border-solid border-2 hover:bg-[rgba(215,230,111,1)] transition-colors"
-            aria-label="Junte-se a nós"
-          >
-            JUNTE-SE A NÓS
-          </button>
+          <div className="flex justify-center w-full mt-8 md:mt-[17px]">
+            <button
+              className="bg-[rgba(225,240,121,1)] gap-2.5 text-[15px] text-[rgba(36,40,15,1)] leading-loose py-3 px-6 rounded-[10px] border-[rgba(225,240,121,1)] border-solid border-2 hover:bg-[rgba(215,230,111,1)] transition-colors"
+              aria-label="Junte-se a nós"
+            >
+              JUNTE-SE A NÓS
+            </button>
+          </div>
         </div>
       </div>
     </section>
