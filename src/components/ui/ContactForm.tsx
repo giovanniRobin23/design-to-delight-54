@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 export const ContactForm: React.FC = () => {
@@ -37,8 +38,8 @@ export const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="bg-white rounded-lg p-6 shadow-md max-w-md mx-auto">
-      <h3 className="text-2xl font-semibold text-[rgba(36,40,15,1)] mb-4">Entre em contato</h3>
+    <div className="bg-white rounded-lg p-5 md:p-6 shadow-md w-full max-w-md mx-auto">
+      <h3 className="text-xl md:text-2xl font-semibold text-[rgba(36,40,15,1)] mb-4">Entre em contato</h3>
       
       {isSubmitted ? (
         <div className="bg-green-100 text-green-800 p-4 rounded-md mb-4">

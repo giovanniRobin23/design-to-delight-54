@@ -1,3 +1,4 @@
+
 import React from "react";
 
 interface PurposeCardProps {
@@ -15,19 +16,19 @@ export const PurposeCard: React.FC<PurposeCardProps> = ({
 }) => {
   return (
     <div
-      className={`${backgroundColor} self-stretch flex min-w-60 min-h-[750px] flex-col overflow-hidden items-stretch justify-center w-[418px] my-auto px-[37px] py-[86px] rounded-[18px] max-md:px-5`}
+      className={`${backgroundColor} self-stretch flex min-w-[280px] md:min-w-60 min-h-[550px] md:min-h-[750px] flex-col overflow-hidden items-stretch justify-center w-full md:w-[418px] my-auto px-5 md:px-[37px] py-10 md:py-[86px] rounded-[18px]`}
     >
-      <div className="self-center flex h-[303px] w-[298px] max-w-full items-center gap-2.5 justify-center pb-9">
+      <div className="self-center flex h-[200px] md:h-[303px] w-[200px] md:w-[298px] max-w-full items-center gap-2.5 justify-center pb-6 md:pb-9">
         <img
           src={imageSrc}
           alt={title}
-          className="aspect-[0.98] object-contain w-[298px] self-stretch min-w-60 my-auto"
+          className="aspect-[0.98] object-contain w-full self-stretch my-auto"
         />
       </div>
-      <h3 className="text-[rgba(14,15,10,1)] text-[51px] font-light leading-none tracking-[-2.4px] text-center max-md:text-[40px]">
+      <h3 className="text-[rgba(14,15,10,1)] text-4xl md:text-[51px] font-light leading-tight md:leading-none tracking-[-1.8px] md:tracking-[-2.4px] text-center max-md:text-[32px]">
         {title}
       </h3>
-      <p className="self-stretch w-full gap-2.5 overflow-hidden text-xl text-[rgba(14,15,10,1)] font-light tracking-[-0.45px] leading-8 py-[9px]">
+      <p className="self-stretch w-full gap-2.5 overflow-hidden text-lg md:text-xl text-[rgba(14,15,10,1)] font-light tracking-[-0.4px] md:tracking-[-0.45px] leading-7 md:leading-8 py-6 md:py-[9px] text-center">
         {description}
       </p>
     </div>
