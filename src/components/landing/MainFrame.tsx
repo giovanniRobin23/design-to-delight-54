@@ -1,9 +1,11 @@
+
 import React from "react";
 import { HeroSection } from "./HeroSection";
 import { WelcomeSection } from "./WelcomeSection";
 import { PurposeSection } from "./PurposeSection";
 import { BenefitsSection } from "./BenefitsSection";
 import { CallToAction } from "./CallToAction";
+import { ContactFormSection } from "./ContactFormSection";
 import { Footer } from "./Footer";
 
 export const MainFrame: React.FC = () => {
@@ -16,6 +18,7 @@ export const MainFrame: React.FC = () => {
       <PurposeSection />
       <BenefitsSection />
       <CallToAction />
+      <ContactFormSection />
       <Footer />
     </div>
   );
