@@ -11,13 +11,8 @@ export const HeroSection: React.FC = () => {
             <div className="border min-h-[180px] md:min-h-[214px] w-full md:w-[645px] max-w-full overflow-hidden rounded-[5px] border-[rgba(151,71,255,0)] border-dashed">
               <div className="self-stretch w-full gap-2.5 max-md:max-w-full">
                 <span style={{ fontFamily: fonts.sigmar, color: "rgba(229,225,214,1)" }}>
-                  AC
-                </span>
-                <span style={{ fontFamily: fonts.sigmar, letterSpacing: "5px", color: "rgba(229,225,214,1)" }}>
-                  E
-                </span>
-                <span style={{ fontFamily: fonts.sigmar, color: "rgba(229,225,214,1)" }}>
-                  LERA NEGÓGIO
+                  ACELERA 
+                  NEGÓGIO
                 </span>
               </div>
               <div className="flex min-h-[100px] md:min-h-[213px] gap-2.5 py-2.5 max-md:max-w-full" />
