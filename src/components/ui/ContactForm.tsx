@@ -34,9 +34,9 @@ export const ContactForm: React.FC = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          service_id: "service_id", // Replace with your EmailJS service ID
-          template_id: "template_id", // Replace with your EmailJS template ID
-          user_id: "user_id", // Replace with your EmailJS user ID
+          service_id: "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
+          template_id: "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+          user_id: "YOUR_USER_ID", // Replace with your EmailJS user ID
           template_params: {
             to_email: "giovanni.buratto@gmail.com",
             from_name: formData.name,
