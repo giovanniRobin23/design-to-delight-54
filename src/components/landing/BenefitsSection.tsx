@@ -7,7 +7,7 @@ export const BenefitsSection: React.FC = () => {
   return (
     <section className="flex w-full flex-col items-stretch justify-center mt-10 md:mt-[85px] max-md:max-w-full">
       <div className="bg-[rgba(242,238,235,1)] flex w-full flex-col overflow-hidden items-center justify-center px-4 md:px-[158px] py-8 md:py-[34px] max-md:max-w-full">
-        <h2 className="self-stretch max-w-full text-3xl md:text-[69px] text-[rgba(14,15,10,1)] text-center tracking-[-2px] md:tracking-[-3.9px] leading-tight md:leading-[72px] px-4 md:px-[111px] py-6 md:py-[38px] max-md:text-[32px]" style={{ fontFamily: fonts.sigmar }}>
+        <h2 className="self-stretch max-w-full text-3xl md:text-[69px] text-[rgba(14,15,10,1)] text-center tracking-[-2px] md:tracking-[-4px] leading-tight md:leading-[72px] px-4 md:px-[111px] py-6 md:py-[38px] max-md:text-[32px]" style={{ fontFamily: fonts.sigmar }}>
           Construindo para uma nova era de
           <br />
           generosidade{" "}

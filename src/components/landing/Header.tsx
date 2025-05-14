@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 export const Header: React.FC = () => {
   const scrollToContact = () => {
-    const contactSection = document.getElementById("contact-section");
+    const contactSection = document.getElementById("faq-section");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -14,8 +14,12 @@ export const Header: React.FC = () => {
   return (
     <header className="bg-[rgba(242,238,235,1)] sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-[rgba(36,40,15,1)] text-xl md:text-2xl" style={{ fontFamily: fonts.sigmar }}>
-          Acelera Negócio
+        <div className="flex items-center">
+          <img 
+            src="/lovable-uploads/c737fa4b-1902-40ce-80d2-3e8143bd1b89.png" 
+            alt="Logo" 
+            className="h-10 md:h-12"
+          />
         </div>
         <Button 
           variant="ghost" 

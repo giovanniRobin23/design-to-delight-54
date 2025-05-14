@@ -6,7 +6,7 @@ import { WelcomeSection } from "./WelcomeSection";
 import { PurposeSection } from "./PurposeSection";
 import { BenefitsSection } from "./BenefitsSection";
 import { CallToAction } from "./CallToAction";
-import { ContactFormSection } from "./ContactFormSection";
+import { FAQSection } from "./FAQSection";
 import { Footer } from "./Footer";
 import { AnimatedSection } from "../ui/AnimatedSection";
 
@@ -33,8 +33,8 @@ export const MainFrame: React.FC = () => {
           <CallToAction />
         </AnimatedSection>
         
-        <AnimatedSection delay={500} id="contact-section">
-          <ContactFormSection />
+        <AnimatedSection delay={500} id="faq-section">
+          <FAQSection />
         </AnimatedSection>
       </main>
       <Footer />

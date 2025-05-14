@@ -28,7 +28,7 @@ export const PurposeCard: React.FC<PurposeCardProps> = ({
       <h3 className="text-[rgba(14,15,10,1)] text-4xl md:text-[51px] font-light leading-tight md:leading-none tracking-[-1.8px] md:tracking-[-2.4px] text-center max-md:text-[32px] transition-all duration-500">
         {title}
       </h3>
-      <p className="self-stretch w-full gap-2.5 overflow-hidden text-lg md:text-xl text-[rgba(14,15,10,1)] font-light tracking-[-0.4px] md:tracking-[-0.45px] leading-7 md:leading-8 py-6 md:py-[9px] text-center">
+      <p className="self-stretch w-full gap-2.5 overflow-hidden text-lg md:text-xl text-[rgba(14,15,10,1)] font-light tracking-[-0.4px] md:tracking-[-0.45px] leading-7 md:leading-8 py-6 md:py-[30px] text-center mt-4">
         {description}
       </p>
     </div>
