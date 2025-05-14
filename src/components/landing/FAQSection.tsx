@@ -7,7 +7,7 @@ export const FAQSection: React.FC = () => {
   return (
     <section className="bg-[rgba(242,238,235,1)] py-12 md:py-16 px-4 mt-10 md:mt-[100px]">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl text-center text-[rgba(36,40,15,1)] mb-8 md:mb-12 tracking-[-2px] md:tracking-[-4px]" style={{ fontFamily: fonts.sigmar }}>
+        <h2 className="text-3xl md:text-[69px] text-center text-[rgba(36,40,15,1)] mb-8 md:mb-12 tracking-[-1px] md:tracking-[-1px] leading-tight md:leading-none" style={{ fontFamily: fonts.sigmar }}>
           Perguntas Frequentes
         </h2>
         

@@ -25,10 +25,10 @@ export const PurposeCard: React.FC<PurposeCardProps> = ({
           className="aspect-[0.98] object-contain w-full self-stretch my-auto animate-gentle-float"
         />
       </div>
-      <h3 className="text-[rgba(14,15,10,1)] text-4xl md:text-[51px] font-light leading-tight md:leading-none tracking-[-2px] md:tracking-[-2px] text-center max-md:text-[32px] transition-all duration-500">
+      <h3 className="text-[rgba(14,15,10,1)] text-4xl md:text-[51px] font-light leading-tight md:leading-none tracking-[-1px] md:tracking-[-1px] text-center max-md:text-[32px] transition-all duration-500">
         {title}
       </h3>
-      <p className="self-stretch w-full gap-2.5 overflow-hidden text-lg md:text-xl text-[rgba(14,15,10,1)] font-light tracking-[-0.4px] md:tracking-[-0.45px] leading-7 md:leading-8 py-6 md:py-[40px] text-center mt-8">
+      <p className="self-stretch w-full gap-2.5 overflow-hidden text-lg md:text-xl text-[rgba(14,15,10,1)] font-light tracking-[-0.4px] md:tracking-[-0.45px] leading-7 md:leading-8 py-6 md:py-[40px] text-center mt-10">
         {description}
       </p>
     </div>
